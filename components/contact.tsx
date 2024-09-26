@@ -43,6 +43,7 @@ export default function Contact() {
         className="mt-10 flex flex-col dark:text-black"
         id="contactForm"
         action={async (formData) => {
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           const { data, error } = await sendEmail(formData);
 
           if (error) {
