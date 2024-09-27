@@ -66,6 +66,7 @@ export const skillsData = [
   "Git",
   "Java",
   "C++",
+  "Golang",
   "Spring",
   "Spring Boot",
   "Rest API",
