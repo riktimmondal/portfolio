@@ -7,7 +7,7 @@ export default function Footer() {
         Copyright &copy; Riktim Mondal 2024
       </small> */}
       <p className="text-xs">
-        <span className="font-semibold">Build with ❤️ by Riktim Mondal</span>
+        <span className="font-semibold">Build by Riktim Mondal</span>
       </p>
     </footer>
   );
