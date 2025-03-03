@@ -1,6 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaMicrosoft } from "react-icons/fa6";
+import { SiGodaddy } from "react-icons/si";
 
 
 export const links = [
@@ -27,6 +28,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Senior Software Engineer",
+    location: "Gurgaon, India",
+    description:
+      "I am working with Infosec team under Security Analytics and Product team to manage infrastructure tailored for efficiently gathering and processing extensive data. This infrastructure supports high-throughput data analysis and decision-making processes to drive program swiftly.",
+    icon: React.createElement(SiGodaddy),
+    date: "2025-Present",
+  },
   {
     title: "Software Engineer",
     location: "Hyderabad, India",
